@@ -21,7 +21,7 @@ class Employee extends Model
         'date_hired',
     ];
 
-    public function county(){
+    public function country(){
         return $this->belongsTo(Country::class);
     }
     public function state(){
